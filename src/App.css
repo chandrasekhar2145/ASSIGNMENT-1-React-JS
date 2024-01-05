@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.browser-history-bg {
+  display: flex;
+  flex-direction: column;
+}
+.browser-history-nav-con {
+  padding: 10px;
+  background-color: #3367d6;
+  display: flex;
+  align-items: center;
+}
+.browser-history-logo {
+  margin-right: 30px;
+  height: 25px;
+}
+.browser-history-search-con {
+  display: flex;
+  align-items: center;
+  background-color: #2850a7;
+  min-width: 40%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #6697ff;
+}
+.search-bar {
+  padding: 10px;
+  height: 100%;
+  border-right: 1px solid #6697ff;
+}
+.search-icon {
+  background-color: #000000;
+  color: #fff;
+  border: 0;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+}
+.browser-history-body-con {
+  padding: 30px;
+}
+.history-item-con {
+  list-style-type: none;
+  box-shadow: 0 4px 16px 0 #bfbfbf;
+  align-self: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+.no-history-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.no-history-txt{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .browser-history-search-con {
+    margin: auto;
+  }
+}
